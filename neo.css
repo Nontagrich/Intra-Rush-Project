@@ -239,14 +239,32 @@ h4{
     font-size: 100%;
   }
   .about{
-    margin-left: 2%;
+    margin-left: 50%;
   }
   #me{
-    margin-top: 35%;
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 10%;
+    display: block;
+    float: left;
+    animation: fade-in 1s;
   }
   .skillfull{
     width: 120%;
     margin-left: 0%;
+  }
+  .profile{
+    width: 220%;
+    text-align: center;
+  }
+  .text{
+    margin-top: 150%;
+  }
+  .box{
+    margin-bottom: 5%;
+    padding-left: 0%;
+    margin-right: 10%;
+    padding-right: 0%;
   }
 
 }
