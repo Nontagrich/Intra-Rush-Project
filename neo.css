@@ -25,7 +25,8 @@ body,html{
   width: 100%;
   z-index: 1;
   display: inline;
-  padding-left: 37%;
+  padding-left: 1%;
+  text-align: center;
 }
 
 .navbar a {
@@ -42,6 +43,7 @@ body,html{
   background: rgb(255, 29, 108);
   color: black;
 }
+
 
 .pic1{
     background: url("https://wallpaperbat.com/img/804428-beautiful-firewatch-wallpaper-2d-landscape-hd-wallpaper-background-download.jpg");
@@ -275,6 +277,13 @@ h4{
 .hobfull{
   margin-left: 8%;
   margin-bottom: 10%;
+}
+
+.workhard{
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(122, 113, 113);
+  color: rgb(0, 0, 0);
+  border-top: solid 2px rgb(214, 28, 81);
 }
 /*-------------------------------------------------------------------*/
 
