@@ -89,7 +89,7 @@ span{
 
 
 #me{
-  width: 21%;
+  width: 15%;
   margin-left: 12%;
   margin-top: 10%;
   display: block;
@@ -110,7 +110,7 @@ h3{
 
 .box{
   border: solid 2px rgb(122, 113, 113);
-  background-color: rgb(122, 113, 113);
+  background-color: rgb(255, 255, 255);
   border-top: solid 2px rgb(214, 28, 81);
   margin-bottom: 5%;
   padding-left: 2%;
@@ -121,7 +121,7 @@ h3{
 
 .mid{
   text-align: center;
-  font-size: 200%;
+  font-size: 120%;
   font-family: 'Kanit', sans-serif;
 }
 h4{
@@ -134,8 +134,15 @@ h4{
 .skill{
   
   width: 5%;
-  margin-left: 5%;
+  padding: 2%;
   
+}
+
+.skillmain{
+  font-family: 'Kanit', sans-serif;
+  margin-top: 5%;
+  font-size: 200%;
+  color: white;
 }
 
 .centertext2{
@@ -195,9 +202,10 @@ h4{
 }
 
 .skillfull{
-  margin-left: 23%;
-  margin-bottom: 18%;
-  margin-right: 10%;
+  
+  margin-bottom: 5%;
+  
+  text-align: center;
 }
 
 .about{
@@ -207,22 +215,35 @@ h4{
   margin-left: 28%;
 }
 
-@media screen and (max-width: 1000px){
+.work{
+  width: 25%;
+  margin: 2%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.work:hover{
+  box-shadow: rgba(255, 0, 55, 0.56) 0px 22px 70px 4px;
+}
+.workfull{
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1280px){
   .navbar{
     padding-left: 1%;
     font-size: 50%;
   }
   #me{
-    margin-top: 13%;
-    width: 30%;
-    margin-left: 7%;
+    margin-top: 9%;
+    width: 12%;
+    margin-left: 20%;
   }
   h4{
     font-size: 200%;
     text-align: center;
   }
   .skill{
-    width: 10%;
+    width: 5%;
   }
   .skill{
     margin-left: 0%;
@@ -236,7 +257,73 @@ h4{
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 1025px){
+  .navbar{
+    padding-left: 1%;
+    font-size: 50%;
+  }
+  #me{
+    margin-top: 10%;
+    width: 18%;
+    margin-left: 15%;
+  }
+  h4{
+    font-size: 200%;
+    text-align: center;
+  }
+  .skill{
+    width: 5%;
+  }
+  .skill{
+    margin-left: 0%;
+  }
+  .text{
+    font-size: 100%;
+  }
+  h1{
+    font-size: 300%;
+  }
+
+}
+
+@media screen and (max-width: 830px){
+  .navbar{
+    padding-left: 1%;
+    font-size: 50%;
+  }
+  #me{
+    margin-top: 12%;
+    width: 20%;
+    margin-left: 15%;
+  }
+  h4{
+    font-size: 200%;
+    text-align: center;
+  }
+  .skill{
+    width: 8%;
+  }
+  .skill{
+    margin-left: 0%;
+  }
+  .text{
+    font-size: 100%;
+  }
+  h1{
+    font-size: 300%;
+  }
+  .skillmain{
+    margin-bottom: 2%;
+    width: 100%;
+  }
+  .hob{
+    width: 10%;
+  }
+
+}
+
+
+@media screen and (max-width: 540px){
   .navbar{
     padding-left: 1%;
     font-size: 50%;
@@ -257,26 +344,38 @@ h4{
     margin-left: 15%;
   }
   .skillfull{
-    width: 120%;
+    text-align: center;
     margin-left: 0%;
   }
   .text{
     margin-left: 20%;
     margin-top: 20%;
   }
+  .hob{
+    width: 120%;
+  }
+  .hobfull{
+    
+    text-align: center;
+    
+  }
+  
   
 
 }
 
+
+
 .hob{
-  width: 20%;
-  padding-right: 12%;
+  width: 10%;
+  padding-right: 1%;
   
 }
 
 .hobfull{
-  margin-left: 8%;
+  
   margin-bottom: 10%;
+  text-align: center;
 }
 
 .workhard{
